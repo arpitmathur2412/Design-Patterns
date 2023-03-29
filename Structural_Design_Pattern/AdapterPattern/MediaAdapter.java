@@ -1,7 +1,5 @@
 package com.Structural_Design_Pattern.AdapterPattern;
 
-import javax.print.attribute.standard.Media;
-
 public class MediaAdapter implements MediaPlayer {
     AdvancedMediaPlayer advancedMusicPlayer;
 
