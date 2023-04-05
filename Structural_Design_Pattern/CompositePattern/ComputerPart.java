@@ -1,12 +1,12 @@
 package com.Structural_Design_Pattern.CompositePattern;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 interface Component{
     void showPrice();
 }
+
 class leaf implements Component{
     int price;
     String name;

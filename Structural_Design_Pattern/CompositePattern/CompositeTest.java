@@ -17,6 +17,7 @@ public class CompositeTest {
         mb.addComponent(cpu);
         mb.addComponent(ram);
 
+
         cabinet.addComponent(hd);
         cabinet.addComponent(mb);
 

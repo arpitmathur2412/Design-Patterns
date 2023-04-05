@@ -19,10 +19,4 @@ public class BookingDesk {
         return (int)(Math.random()*100);
     }
 
-//    private static int getRandomY(){
-//        return (int)(Math.random()*100);
-//    }
-
-
 }
-
