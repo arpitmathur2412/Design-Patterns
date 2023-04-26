@@ -12,6 +12,7 @@ public class FlyweightDemo {
             circle.draw();
         }
     }
+
     private static String getRandomColor() {
         return colors[(int)(Math.random()*colors.length)];
     }

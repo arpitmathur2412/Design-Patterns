@@ -7,6 +7,7 @@ public class ShapeFactory {
 
     public static Shape getCircle(String color){
         Circle circle= circlemap.get(color);
+
         if(circle==null){
             circle=new Circle(color);
             circlemap.put(color,circle);
