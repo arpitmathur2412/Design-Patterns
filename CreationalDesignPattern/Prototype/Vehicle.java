@@ -31,11 +31,9 @@ public class Vehicle implements Cloneable{
 
     @Override
     public Object clone() throws CloneNotSupportedException{
-
         List<String> l=this.getVehicleList();
         Vehicle temp=new Vehicle();
         temp.vehicleList=l;
         return temp;
     }
-
 }
